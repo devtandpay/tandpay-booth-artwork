@@ -1,0 +1,46 @@
+TANDPAY EXHIBITION WALL — VERSION 1
+
+Finished artwork size: 2000 × 2000 mm. PDFs are supplied at 1:1 scale.
+Colour: RGB. No bleed, trim marks or finishing allowance have been assumed.
+Ask the printer to confirm their bleed, attachment/seam allowance, colour profile,
+and whether their workflow accepts the supplied PDF. Convert to their requested
+CMYK profile in the prepress workflow if required.
+
+EDITIONS
+1. tandpay-booth-vector-2000mm.pdf
+   Entirely vector artwork, including vector lettering and a flat-colour mark traced
+   from the website logo. Recommended for the sharpest reproduction at 2 metres.
+   The traced mark is a production adaptation, not an original vector brand master.
+
+2. tandpay-booth-illustrated-2000mm.pdf
+   Vector lettering and mark with an AI-generated editorial seller illustration.
+   The transparent illustration is 1254 × 1254 px and is placed 850 mm wide
+   (approximately 37.5 pixels per inch at final size). This is an illustrated proof;
+   obtain the printer's acceptance or a suitable higher-resolution source before
+   committing this edition to a large-format print run. Upscaling alone does not
+   restore missing detail.
+
+The PNGs are 2000 × 2000 pixel screen previews, not 300 dpi print exports.
+The SVGs retain editable vector lettering and embed their font/image resources.
+Some design applications may need Manrope installed when editing the SVG.
+The PDFs preserve the rendered lettering as vector graphics for consistent appearance.
+
+BRAND AND COPY
+Forest #093F3E; gold #EFA524; cream #F7F6F0; mint #DCEFEA.
+Manrope typeface and original logo sourced from the existing local TandPay site.
+Headline: Sell on social media. Run the business on TandPay.
+Supporting copy: Storefronts. Mobile Money checkout. Orders. Reputation.
+Invitation: Ask us for a demo.
+Rollout qualification: Early access.
+
+No summit logo, event date, external partner logo, regulatory claim, web address,
+or QR destination has been added. The design is reusable beyond the event.
+
+ILLUSTRATION GENERATION
+Built-in image generation tool; no API-key or CLI fallback was used.
+The exact generation prompt is provided in GENERATION-PROMPT.txt.
+
+SOURCE
+build_artwork.py rebuilds the SVG and HTML editions using the included assets.
+artwork.html is the illustrated composition; artwork-vector.html is the vector
+composition. Chromium print CSS specifies a 2000 mm square page with no margins.
