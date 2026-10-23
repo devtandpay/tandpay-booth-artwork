@@ -1,0 +1,43 @@
+TANDPAY — ESCROW-FOCUSED BOOTH ARTWORK, VERSION 2
+
+Headline: Escrow protection. For social commerce.
+Supporting line: Protection built around buyers and sellers.
+Main visual: Pay → Protect → Confirm → Release.
+Buyer protection: Inspect before confirming.
+Seller protection: Verify payment before dispatch.
+Invitation: See escrow in action. Ask us for a demo.
+Qualification: Partner-managed funds. Transaction terms apply. Early access.
+
+This version replaces the storefront-led emphasis with the escrow layer and
+buyer/seller protection, following Bahati's direction. The normal transaction
+flow follows the existing TandPay marketing site's configuration and sale
+workflow: Mobile Money payment, buyer inspection, buyer-entered package code,
+and authorization of payment release. Release and settlement are separate;
+settlement follows the applicable partner process and transaction terms.
+
+The artwork makes no licence, regulatory endorsement, guaranteed refund,
+instant settlement or zero-risk claim. It does not claim TandPay directly
+holds customer funds. This marketing revision does not independently verify
+the operating status of a payment integration or a partner's regulatory status.
+
+PRINT FILES
+tandpay-escrow-booth-2000mm.pdf: one page, nominal 2000 × 2000 mm at 1:1 scale.
+Chrome rounds the actual PDF page to approximately 1999.91 × 1999.91 mm.
+The artwork and lettering are vectors. No raster images are embedded.
+tandpay-escrow-booth-2000mm.svg: editable, self-contained vector source with
+embedded Manrope font resource; editing software may require Manrope installed.
+tandpay-escrow-booth-8000px.png: 8000 × 8000 pixels, equivalent to 101.6 pixels
+per inch when assigned a 2000 × 2000 mm print size. Exported directly from the
+vector artwork, without enlarging a lower-resolution bitmap.
+tandpay-escrow-booth-preview.png: 2000 × 2000 pixel screen preview.
+
+Colour: RGB. No bleed or finishing allowance has been assumed. The printer
+must confirm required bleed, seam/attachment allowance, colour profile, and
+whether the 8000 pixel PNG meets their production requirements. Use the PDF
+where scalable vector artwork is accepted.
+
+BUILD
+Run build_escrow_artwork.py from the repository root to regenerate the SVG and
+HTML using the existing font and vectorized logo assets. Chromium produces the
+PDF and PNG exports. No new AI-generated raster image was used in version 2.
+The original website logo was traced for vector production in version 1.
