@@ -1,0 +1,50 @@
+TANDPAY — ESCROW BOOTH ARTWORK, LAUNCH EDITION, VERSION 3
+
+Finished artwork: nominal 2000 × 2000 mm at 1:1 scale.
+Headline: Escrow protection. For social commerce.
+Core story: Pay → Protect → Confirm → Release.
+Buyer protection: Inspect before confirming.
+Seller protection: Verify payment before dispatch.
+Scan invitation: SCAN TO GET STARTED / tandpay.com.
+Funds qualification: Partner-managed funds. Transaction terms apply.
+
+This event edition assumes TandPay will have launched by the event, as Bahati
+instructed. It contains no early-access badge and does not assert a launch date
+or that the service has already launched today. Previous versions are retained
+in Git history and earlier releases; use this version for the current artwork.
+
+QR CODE
+Exact encoded destination: https://tandpay.com
+The live HTTPS destination was checked and returned HTTP 200 after redirecting
+to https://www.tandpay.com/. The QR encodes the requested root-domain URL.
+No third-party QR service, shortener, tracking redirect or embedded secret.
+Generated locally with qrcode 1.5.4; error correction Q; 25 × 25 modules;
+four-module white quiet zone on every side; solid black modules on white.
+The QR occupies a 320 × 320 mm square in the artwork.
+Independently decoded with jsQR from the standalone QR PNG, the complete
+2000 px artwork preview, and the QR region of the 8000 px artwork export.
+All three decoded exactly https://tandpay.com.
+
+FILES
+tandpay-escrow-booth-2000mm.pdf: one-page vector PDF; Chrome rounds the physical
+page to approximately 1999.91 × 1999.91 mm. No raster images embedded.
+tandpay-escrow-booth-2000mm.svg: self-contained editable vector composition,
+including an embedded Manrope font resource and the vector QR pattern.
+tandpay-escrow-booth-8000px.png: 8000 × 8000 pixels, equivalent to 101.6 pixels
+per inch when assigned a 2000 × 2000 mm print size; exported from vector artwork.
+tandpay-escrow-booth-preview.png: 2000 × 2000 pixel screen preview.
+Standalone QR SVG, PNG and encoding metadata are included in assets/.
+
+Colour: RGB. No bleed, seam or attachment allowance has been assumed. The
+printer should confirm the required bleed, finishing, colour profile and image
+resolution. Use the vector PDF when the printer accepts scalable vector artwork.
+Maintain the white QR quiet zone and black/white contrast during production.
+
+BUILD AND VERIFICATION
+make_tandpay_qr.cjs generates QR assets using qrcode.
+build_escrow_launch_artwork.py reuses build_escrow_artwork.py, writes v3/,
+removes the access label and places the QR and website address.
+verify_tandpay_qr.cjs independently decodes exported artwork using jsqr and sharp.
+Node build/verification dependencies: qrcode 1.5.4, jsqr 1.4.0, and sharp.
+Provide these via Node's module search path or a local npm installation.
+No new AI-generated raster imagery was used in version 3.

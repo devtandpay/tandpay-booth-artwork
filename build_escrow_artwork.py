@@ -81,7 +81,7 @@ def build():
 <style>*{box-sizing:border-box}html,body{margin:0;padding:0;background:#093f3e}.art{width:2000px;height:2000px}.art svg{width:100%;height:100%;display:block}@page{size:2000mm 2000mm;margin:0}@media print{html,body,.art{width:2000mm;height:2000mm;margin:0;padding:0}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}</style>
 </head><body><main class="art">''' + svg + "</main></body></html>"
     (OUT / "artwork.html").write_text(html)
-    print("Built v2: escrow-led artwork, 2000 × 2000 mm, entirely vector.")
+    print(f"Built {OUT.name}: escrow-led artwork, 2000 × 2000 mm, entirely vector.")
 
 
 if __name__ == "__main__":

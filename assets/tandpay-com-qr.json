@@ -1,0 +1,9 @@
+{
+  "destination": "https://tandpay.com",
+  "errorCorrectionLevel": "Q",
+  "quietZoneModules": 4,
+  "symbolModules": 25,
+  "generator": "qrcode",
+  "generatorVersion": "1.5.4",
+  "trackingOrRedirectService": false
+}
